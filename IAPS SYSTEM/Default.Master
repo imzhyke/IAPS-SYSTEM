@@ -1,0 +1,94 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="IAPS_SYSTEM.Default" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="fontawesome/css/all.css" rel="stylesheet" />
+         <link href="bootstrap/css/style.css" rel="stylesheet" />
+
+        <script src="bootstrap/js/jquery-3.6.3.slim.min.js"></script>
+        <script src="bootstrap/js/popper.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="fontawesome/js/all.js"></script>
+      
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+
+
+    </asp:ContentPlaceHolder>
+</head>
+<body class="bg-landingpage">
+
+    <form id="form" runat="server">
+          <div class="mx-5">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="img/firefox-monitor.svg" width="30" height="30" />
+                    IAPS TRANSACTION RECORDS SYSTEM
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav col-sm-6">
+                       
+
+                    </ul>
+
+                    <ul  class="navbar-nav  col-sm-6">
+
+                        <li class="nav-item active">
+                    
+                            <asp:LinkButton class="nav-link" ID="empLogged" runat="server">Hello user</asp:LinkButton>
+                            <asp:LinkButton class="nav-link" ID="adminLogged" runat="server">Hello user</asp:LinkButton>
+                        </li>
+
+                        <li class="nav-item active">
+
+                            <asp:LinkButton class="nav-link btn btn-block btn-success" ID="empLogBtn" runat="server" OnClick="adminLogBtn_Click"> LOG OUT <i class="fa fa-sign-out" aria-hidden="true"></i>  </asp:LinkButton>
+
+                            <asp:LinkButton class="nav-link btn btn-block btn-warning" ID="adminLogBtn" runat="server" OnClick="adminLogBtn_Click"> LOG OUT <i class="fa fa-sign-out" aria-hidden="true"></i>  </asp:LinkButton>
+                        </li>
+
+                        
+                    </ul>
+                  
+                </div>
+
+
+            </nav>
+      </div>
+
+
+
+
+
+            <asp:ContentPlaceHolder ID="publicView" runat="server">
+            </asp:ContentPlaceHolder>
+
+         <!-- Footer -->
+        <footer>
+
+            <div id="footer2" class="fixed-bottom container-fluid bg-dark">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 text-center">
+                        <p style="color:whitesmoke">&copy Copyright 2023 All rights reserved. </p>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+        <!-- ./Footer -->
+
+      
+    </form>
+</body>
+</html>

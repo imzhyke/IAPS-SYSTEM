@@ -1,0 +1,42 @@
+﻿body {
+    margin: 0;
+}
+
+.bg-landingpage {
+    background-image: url('../../img/default-bg.jpg');
+    height: 100vh;
+    margin-top: 0;
+}
+
+.footerlinks {
+    color: #ffffff;
+    text-decoration: none !important;
+}
+
+.footerlinks:hover {
+    color: #ffd800;
+}
+
+#footer1 {
+    background: #762b00;
+}
+
+#footer2 {
+    background: #531f00;
+}
+
+.cardsss {
+    background-color: hsl(229, 0%, 100%, 1);
+    border-radius:1em;
+}
+
+.registerbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}

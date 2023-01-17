@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IAPS SYSTEM", "IAPS SYSTEM\IAPS SYSTEM.csproj", "{454ADD22-B37B-4988-8A35-6BC2C3112016}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{454ADD22-B37B-4988-8A35-6BC2C3112016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454ADD22-B37B-4988-8A35-6BC2C3112016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454ADD22-B37B-4988-8A35-6BC2C3112016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454ADD22-B37B-4988-8A35-6BC2C3112016}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8097FF10-3EFA-4C41-9226-ED23D694F65F}
+	EndGlobalSection
+EndGlobal
