@@ -10,7 +10,7 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="publicView" runat="server">
   
 
-    <div class="container">
+    <div class="container ">
         
       <div class="row">
          <div class="col-md-6 mx-auto">

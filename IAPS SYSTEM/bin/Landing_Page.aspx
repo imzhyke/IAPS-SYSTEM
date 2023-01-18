@@ -9,7 +9,7 @@
 
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="publicView" runat="server">
-
+    <h1>HELLO</h1>
     <div class="container mt-3 bg-opacity-75">
       <div class="row">
          <div class="col-md-6 mx-auto">
